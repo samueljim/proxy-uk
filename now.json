@@ -6,11 +6,8 @@
     "github": {
         "autoAlias": true
     },
-    "regions": ["uk"],
-    "builds": [
-        { "src": "/", "use": "@now/node" },
-    ],
+    "regions": ["lhr1"],
     "routes": [
-        { "src": "/", "dest": "/" },
+        { "src": "/", "dest": "/api" }
     ]
 }
