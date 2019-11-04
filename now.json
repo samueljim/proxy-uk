@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "proxy-uk",
+    "public": false,
+    "alias": ["uk.samueljim.com"],
+    "github": {
+        "autoAlias": true
+    },
+    "regions": ["uk"],
+    "builds": [
+        { "src": "/", "use": "@now/node" },
+    ],
+    "routes": [
+        { "src": "/", "dest": "/" },
+    ]
+}
