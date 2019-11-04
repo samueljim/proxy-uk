@@ -8,6 +8,6 @@
     },
     "regions": ["lhr1"],
     "routes": [
-        { "src": "*", "dest": "/api" }
+        { "src": "/", "dest": "/api" }
     ]
 }
